@@ -16,3 +16,16 @@ let enrolledAsNumber = Number(isEnrolled);
 console.log("Original:", isEnrolled, typeof isEnrolled, "|Converted:", enrolledAsNumbe, typeof enrolledAsNumber)
 let nullAsNumber = Number(incompletedCourse);
 console.log("Original:", incompletedCourse, typeof incompletedCourse, "|Converted:", nullAsNumber, typeof nullAsNumber);
+let x =10;
+let y = 3; 
+console.log (Addition:", x + y);
+console.log (Subtraction:", x - y);
+console.log (Multiplication:", x * y); 
+console.log ("Division:, x / y);
+console.log ("Modulus:, x % y);
+console.log("Division by zero :", x / 0);
+let isEnrolled = true;
+let hasCompletedAssignment = false;
+console.log('isEnrolled AND hasCompletedAssignment = ${isEnrolled && hasCompletedAssignment}';
+console.log('isEnrolled OR hasCompletedAssignment = ${isEnrolled || hasCompletedAssignment}');
+console.log('NOT isEnrolled = ${!isEnrolled}');
