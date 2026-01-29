@@ -13,7 +13,7 @@ console.log("Original:", age, typeof age, "| Converted:", ageAsString, typeof ag
 let nameAsBoolean = Boolean(fullName);
 console.log("Original:", fullName, typeof fullName, "|Converted:", nameAsBoolean, typeof nameAsBoolean);
 let enrolledAsNumber = Number(isEnrolled);
-console.log("Original:", isEnrolled, typeof isEnrolled, "|Converted:", enrolledAsNumbe, typeof enrolledAsNumber)
+console.log("Original:", isEnrolled, typeof isEnrolled, "|Converted:", enrolledAsNumber, typeof enrolledAsNumber)
 let nullAsNumber = Number(incompletedCourse);
 console.log("Original:", incompletedCourse, typeof incompletedCourse, "|Converted:", nullAsNumber, typeof nullAsNumber);
 let x = 10;
@@ -21,12 +21,12 @@ let y = 3;
 console.log("Addition:", x + y);
 console.log("Subtraction:", x - y);
 console.log("Multiplication:", x * y); 
-console.log("Division:, x / y);
-console.log("Modulus:, x % y);
+console.log("Division:", x / y);
+console.log("Modulus:", x % y);
 console.log("Division by zero :", x / 0);
-let isEnrolled = true;
+isEnrolled = true;
 let hasCompletedAssignment = false;
-console.log('isEnrolled AND hasCompletedAssignment = ${isEnrolled && hasCompletedAssignment}');
-console.log('isEnrolled OR hasCompletedAssignment = ${isEnrolled || hasCompletedAssignment}');
-console.log('NOT isEnrolled = ${!isEnrolled}');
+console.log("isEnrolled AND hasCompletedAssignment =", isEnrolled && hasCompletedAssignment);
+console.log("isEnrolled OR hasCompletedAssignment =", isEnrolled || hasCompletedAssignment);
+console.log("NOT isEnrolled =",!isEnrolled);
 
