@@ -26,6 +26,6 @@ console.log ("Modulus:, x % y);
 console.log("Division by zero :", x / 0);
 let isEnrolled = true;
 let hasCompletedAssignment = false;
-console.log('isEnrolled AND hasCompletedAssignment = ${isEnrolled && hasCompletedAssignment}';
+console.log('isEnrolled AND hasCompletedAssignment = ${isEnrolled && hasCompletedAssignment}');
 console.log('isEnrolled OR hasCompletedAssignment = ${isEnrolled || hasCompletedAssignment}');
 console.log('NOT isEnrolled = ${!isEnrolled}');
